@@ -1,0 +1,20 @@
+export type Calculation = {
+  id: string;
+  name: string;
+  fixedCosts: number;
+  weeklyHours: number;
+  experienceLevel: "junior" | "mid" | "senior";
+  profitMargin: number;
+  vacationWeeks: number;
+  taxRate: number;
+  currency: string;
+  hourlyRate: number;
+  dailyRate: number;
+  weeklyRate: number;
+  monthlyRate: number;
+  projectDuration?: number;
+  projectComplexity?: "low" | "medium" | "high";
+  riskFactor?: number;
+  projectRate?: number;
+  date: string;
+};
