@@ -330,7 +330,7 @@ export default function Calculator() {
                                 min={0}
                                 max={100}
                                 step={1}
-                                defaultValue={[value || 0]}
+                                defaultValue={[value ?? 0]}
                                 onValueChange={(vals) => onChange(vals[0])}
                                 {...field}
                               />
